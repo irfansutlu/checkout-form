@@ -131,3 +131,17 @@ img{
 .price span{
     float: right;
 }
+@media (max-width: 1000px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-form{
+        width: 60%;
+    }
+    .buys{
+        width: 60%;
+    }
+}
