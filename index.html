@@ -16,24 +16,28 @@
     <div class="container">
       <div class="info-form">
         <form>
-          <h3>Contact information</h3><br>
+          <h3>Contact information</h3>
+          <br />
 
           <label for="email">Email</label><br />
           <input
             type="email"
             id="email"
             placeholder="Enter your email..."
-          required/>
+            required
+          />
           <br /><br />
 
           <label for="phone">Phone</label><br />
           <input
             type="tel"
             id="phone"
-            placeholder="Enter your phone..." required
+            placeholder="Enter your phone..."
+            required
           /><br /><br /><br /><br />
 
-          <h3>Shipping address</h3><br>
+          <h3>Shipping address</h3>
+          <br />
 
           <label for="name">Full name</label><br />
           <input
@@ -47,7 +51,8 @@
             type="text"
             name="address"
             id="address"
-            placeholder="Enter your address..." required
+            placeholder="Enter your address..."
+            required
           /><br /><br />
 
           <label for="city">City</label><br />
@@ -57,8 +62,6 @@
             id="city"
             placeholder="Enter your city..."
           /><br /><br />
-
-
 
           <div class="left-div">
             <label for="country">Country</label><br />
@@ -73,30 +76,59 @@
 
           <div class="right-div">
             <label for="pCode">Post Code</label><br />
-            <input type="number" name="pCode" id="pCode" placeholder="Enter your postal code..."/><br /><br />
+            <input
+              type="number"
+              name="pCode"
+              id="pCode"
+              placeholder="Enter your postal code..."
+            /><br /><br />
           </div>
 
+          <input type="checkbox" name="comp" id="comp" /> See this information
+          next time <br /><br />
 
-
-          <input type="checkbox" name="comp" id="comp" /> See this information next time
-          <br /><br />
-          
-
-          <input type="submit" value="Continue" id="submit"/>
-
+          <input type="submit" value="Continue" id="submit" />
         </form>
       </div>
       <div class="buys">
         <div class="backbag">
-          
+          <img src="./img/photo1.png" alt="Vintage Backbag" />
+          <div class="content">
+            <h4>Vintage Backbag</h4>
+            <p>$54.99 <span>$94.99</span></p>
+            <br />
+            <div class="count">
+              <button>-</button>
+              <p>0</p>
+              <button>+</button>
+            </div>
+          </div>
         </div>
-        <div class="shoes"></div>
-        <div class="price"></div>
+        <div class="shoes">
+          <img src="./img/photo2.png" alt="Levi Shoes" />
+          <div class="content">
+            <h4>Levi Shoes</h4>
+            <p>$74.99 <span>$124.99</span></p>
+            <br />
+            <div class="count">
+              <button>-</button>
+              <p>0</p>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <hr />
+          <p>Shipping <span>$19</span></p>
+          <hr />
+          <p>Total <span>$19</span></p>
+        </div>
       </div>
     </div>
     <script
       src="https://kit.fontawesome.com/d02eea4e4e.js"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
