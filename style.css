@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+h1{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.info-form{
+    width: 35%;
+    padding: 1rem 2rem;
+}
+.buys{
+    width: 30%;
+    background-color: blueviolet;
+}
+label{
+    font-size: 0.85rem;
+}
+input{
+    border: 1px solid #828282;
+    padding: 0.4rem 5px 0.4rem 1.5rem;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.4rem;
+}
+.left-div{
+    display: inline;
+    width: 30%;
+    float: left;
+}
+.right-div{
+    display: inline;
+    width: 50%;
+}
+.right-div input{
+    width: 70%;
+}
+.left-div select{
+    width: 90%;
+    border: 1px solid #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0.4rem 5px;
+    margin-top: 0.4rem;
+}
+#comp{
+    width: auto;
+}
+#submit{
+    width: auto;
+    text-align: center;
+    padding: 0.9rem 0.5rem;
+    float: right;
+    border-radius: 10px;
+    background-color: #f2994a;
+    color: white;
+    border: none;
+}
