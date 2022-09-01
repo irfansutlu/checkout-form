@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Checkout</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Checkout</h1>
     <div>
-        <form>
-            <h3>Contact information</h3>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" placeholder="&#9993; Enter your email..."><br><br>
-            <label for="phone">Phone</label><br>
-            <input type="tel" id="phone" placeholder="&#9990; Enter your phone...">
-        </form>
+      <form>
+        <h3>Contact information</h3>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="&#9993; Enter your email..."
+        /><br /><br />
+        <label for="phone">Phone</label><br />
+        <input
+          type="tel"
+          id="phone"
+          placeholder="&#9990; Enter your phone..."
+        /><br /><br /><br /><br />
+
+        <h3>Shipping address</h3>
+        <label for="name">Full name</label><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your Full name..."
+        /><br /><br />
+
+        <label for="address">Address</label><br />
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Enter your address..."
+        /><br /><br />
+
+        <label for="city">City</label><br />
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Enter your city..."
+        /><br /><br />
+        <div>
+          <label for="country">Country</label><br />
+          <select id="country">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+
+          <label for="pCode">Post Code</label><br />
+          <input type="number" name="pCode" id="pCode" /><br /><br />
+        </div>
+        <input type="checkbox" name="" id="" /> See this information next time
+      </form>
     </div>
-    <div>
-        
-    </div>
-    <script src="https://kit.fontawesome.com/d02eea4e4e.js" crossorigin="anonymous"></script>
-</body>
+    <div></div>
+    <script
+      src="https://kit.fontawesome.com/d02eea4e4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
