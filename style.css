@@ -56,6 +56,9 @@ input {
 #comp {
   width: auto;
 }
+#comp:hover{
+  cursor: pointer;
+}
 #submit {
   width: auto;
   text-align: center;
@@ -98,6 +101,9 @@ img {
   border-radius: 5px;
   text-align: center;
   border: none;
+}
+.count button:hover, #submit:hover{
+  cursor: pointer;
 }
 .backbag,
 .shoes {
