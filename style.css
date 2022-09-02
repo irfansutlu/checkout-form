@@ -26,12 +26,15 @@ label {
 }
 input {
   border: 1px solid #828282;
-  padding: 0.4rem 5px 0.4rem 1.5rem;
+  padding: 0.4rem 5px 0.4rem 3rem;
   color: #828282;
   font-size: 14px;
   border-radius: 5px;
   width: 100%;
   margin-top: 0.4rem;
+}
+#country{
+  padding: 0.4rem 5px 0.4rem 2.5rem;
 }
 .left-div {
   display: inline;
@@ -56,7 +59,7 @@ input {
 #comp {
   width: auto;
 }
-#comp:hover{
+#comp:hover {
   cursor: pointer;
 }
 #submit {
@@ -80,7 +83,7 @@ input {
   flex-direction: column;
   gap: 1.5rem;
 }
-img {
+.buys img {
   width: 30%;
   border-radius: 5px;
 }
@@ -102,7 +105,8 @@ img {
   text-align: center;
   border: none;
 }
-.count button:hover, #submit:hover{
+.count button:hover,
+#submit:hover, #country:hover {
   cursor: pointer;
 }
 .backbag,
@@ -137,6 +141,49 @@ img {
 }
 .price span {
   float: right;
+}
+#email {
+  background-image: url("./img/email.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+}
+#phone {
+  background-image: url("./img/phone.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+}
+#name {
+  background-image: url("./img/man.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+}
+#address {
+  background-image: url("./img/home.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+}
+#city {
+  background-image: url("./img/city.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+}
+#country {
+  background-image: url("./img/world.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
+
+}
+#pCode {
+  background-image: url("./img/postalcode.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 1.2rem;
+  background-position: 0.5rem 0.3rem;
 }
 @media (max-width: 1000px) {
   .container {
